@@ -1,0 +1,13 @@
+{
+  "name": "nerfbench",
+  "description": "BridgeBench Nerf Bench scores under the Claude Code prompt",
+  "owner": {
+    "name": "Darshan Advani"
+  },
+  "plugins": [
+    {
+      "name": "nerfbench",
+      "source": "./"
+    }
+  ]
+}
