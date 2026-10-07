@@ -4,6 +4,7 @@ export const URL = 'https://www.bridgebench.ai/nerf-bench'
 // name matches, shown without its "Claude " prefix.
 export const SLOTS = [
   { label: 'Opus', match: /^Claude Opus [\d.]+$/ },
+  { label: 'Fable', match: /^Claude Fable [\d.]+$/ },
   { label: 'Astra', match: /^GPT-[\d.]+ Astra$/ },
   { label: 'Sol', match: /^GPT-[\d.]+ Sol$/ },
 ] as const
