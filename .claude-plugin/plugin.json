@@ -1,1 +1,1 @@
-{ "name": "nerfbench", "version": "0.3.0", "description": "Shows BridgeBench Nerf Bench power for Opus, Astra and Sol on the hint line under the prompt", "author": { "name": "Darshan Advani" }, "types": "./types/index.d.ts" }
+{ "name": "nerfbench-in-terminal", "version": "0.3.1", "description": "Shows BridgeBench Nerf Bench power for Opus, Astra and Sol on the hint line under the prompt", "author": { "name": "Darshan Advani" }, "types": "./types/index.d.ts" }

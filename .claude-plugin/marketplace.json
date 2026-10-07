@@ -1,12 +1,12 @@
 {
-  "name": "nerfbench",
+  "name": "nerfbench-in-terminal",
   "description": "BridgeBench Nerf Bench scores under the Claude Code prompt",
   "owner": {
     "name": "Darshan Advani"
   },
   "plugins": [
     {
-      "name": "nerfbench",
+      "name": "nerfbench-in-terminal",
       "source": "./"
     }
   ]

@@ -6,7 +6,7 @@ import type { Cache, Score } from './nerf'
 
 const CACHE = 'scores'
 
-const shown = atom({ plugin: 'nerfbench', key: 'scores' } as const, null)
+const shown = atom({ plugin: 'nerfbench-in-terminal', key: 'scores' } as const, null)
 
 let inFlight: Promise<Score[]> | undefined
 

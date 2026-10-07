@@ -1,4 +1,4 @@
-# nerfbench
+# nerfbench-in-terminal
 
 Shows [BridgeBench Nerf Bench](https://www.bridgebench.ai/nerf-bench) scores on the hint line under the prompt, in Claude Code and OpenCode:
 
@@ -19,7 +19,7 @@ The page is behind a Cloudflare check that blocks scripted fetches, so the mod r
 ## Install (Claude Code)
 
 ```
-/plugin install nerfbench --marketplace darshan-advani/nerfbench
+/plugin install nerfbench-in-terminal --marketplace darshan-advani/nerfbench-in-terminal
 ```
 
 To work on it from a clone instead, add the folder to `CLAUDE_CODE_PLUGIN_DIRS` in `~/.claude/settings.json` (under `env`), or start Claude Code with `claude --plugin-dir <clone>`.
