@@ -25,10 +25,10 @@ test('parses each model card, not the test tables', () => {
   ])
 })
 
-test('shows Opus, Fable, Astra and Sol, untracked without color', () => {
+test('shows Opus, Sonnet, Astra and Sol, untracked without color', () => {
   expect(segments(parseScores(PAGE))).toEqual([
     { text: 'Opus 5.5 103.8%', color: 'green' },
-    { text: 'Fable —' },
+    { text: 'Sonnet —' },
     { text: 'GPT-6 Astra 101.1%', color: 'green' },
     { text: 'Sol —' },
   ])
@@ -38,14 +38,13 @@ test('takes the newest version per slot; yellow below 90%', () => {
   const scores = [
     { model: 'Claude Opus 5', provider: 'Anthropic', power: 99 },
     { model: 'Claude Opus 5.5', provider: 'Anthropic', power: 85 },
-    { model: 'Claude Fable 5', provider: 'Anthropic', power: 95 },
-    { model: 'Claude Fable 5.1', provider: 'Anthropic', power: 102.4 },
+    { model: 'Claude Sonnet 5', provider: 'Anthropic', power: 95 },
     { model: 'GPT-6.1 Sol', provider: 'OpenAI', power: 90 },
     { model: 'Claude Sonnet 5.5', provider: 'Anthropic', power: 70 },
   ]
   expect(segments(scores)).toEqual([
     { text: 'Opus 5.5 85.0%', color: 'yellow' },
-    { text: 'Fable 5.1 102.4%', color: 'green' },
+    { text: 'Sonnet 5.5 70.0%', color: 'yellow' },
     { text: 'Astra —' },
     { text: 'GPT-6.1 Sol 90.0%', color: 'green' },
   ])

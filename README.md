@@ -3,7 +3,7 @@
 Shows [BridgeBench Nerf Bench](https://www.bridgebench.ai/nerf-bench) scores on the hint line under the prompt, in Claude Code and OpenCode:
 
 ```
-nerf · Opus 5.5 103.8% · Fable 5.1 102.4% · GPT-6 Astra 101.1% · GPT-6.1 Sol 100.0%
+nerf · Opus 5.5 103.8% · Sonnet 5.5 100.9% · GPT-6 Astra 101.1% · GPT-6.1 Sol 100.0%
 ```
 
 A score is green at 90% and up and yellow below that. `/nerfbench` fetches fresh scores and lists every model on the page.

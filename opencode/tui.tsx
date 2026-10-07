@@ -80,7 +80,7 @@ const refresh = async (api: Api, force = false) => {
   }
 }
 
-// Same line as Claude Code: "nerf · Opus 5.5 103.8% · Fable 5.1 102.4% · GPT-6 Astra 101.1% · …",
+// Same line as Claude Code: "nerf · Opus 5.5 103.8% · Sonnet 5.5 100.9% · GPT-6 Astra 101.1% · …",
 // green at 90% and up, yellow below, untracked slots muted.
 const Line = (props: { api: Api }) => {
   const theme = () => props.api.theme
